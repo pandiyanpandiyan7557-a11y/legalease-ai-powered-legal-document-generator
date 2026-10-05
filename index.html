@@ -1,0 +1,11 @@
+<h2>AI Legal Document Generator</h2>
+<input id="n" placeholder="Name">
+<input id="d" placeholder="Document">
+<button onclick="g()">Generate</button>
+<p id="r"></p>
+
+<script>
+function g(){
+ r.innerHTML="Legal "+d.value+" for "+n.value+" generated.";
+}
+</script>
